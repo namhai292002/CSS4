@@ -1,0 +1,117 @@
+
+@media (max-width: 1496px) {
+	.container{
+		width:85%; 
+	}
+}
+@media  (max-width: 980px){
+	.wrapper .main1 .container .section1 {
+		flex-direction: column-reverse;
+	}
+	.wrapper .main1 .container .section1 .title  {
+		text-align: center;
+	}
+	.wrapper .main1 .container .section1 .title h2,
+	.wrapper .main1 .container .section1 .title h3 {
+		font-size: 55px;
+		line-height: 100px;
+	}
+	.wrapper .main1 .container .section1 .title p {
+		font-size: 28px;
+	}
+	.wrapper .main1 .container .section1 .title button {
+		width: 250px;
+		height: 70px;
+		font-size: 20px;
+	}
+	.wrapper .main1 .container .section1 .banner img {
+		width: 360px;
+		height: 485px;
+	}
+	.container {
+		width: 96%;
+	}
+	.wrapper .main2 .section2 .content {
+		width: 100%;
+		font-size: 25px;
+	}
+	.wrapper .main2 .section2 .infor3 h2 {
+		font-size: 55px;
+	}
+	.wrapper .main2 .section2 .infor3 .ch .note h3,
+	.wrapper .main2 .section2 .infor3 .ch .note p,
+	.wrapper .main2 .section2 .infor3 .ch .circle .text {
+		font-size: 30px;
+	} 
+	.wrapper .main3 h3 {
+		font-size: 60px;
+	}
+	.wrapper .main3 .section3 {
+		width: 98%;
+	}
+	.wrapper .main3 .section3 .grid {
+		grid-template-columns: auto;
+	}
+	.wrapper .main3 .section3 .grid .grid_one img {
+	width:100px;
+	height:100px;
+	margin-right: 25px;
+	}
+	.wrapper .main3 .section3 .grid .grid_one .infor_title h2,
+	.wrapper .main3 .section3 .grid .grid_one .infor_title p{
+		font-size: 28px;
+	}
+	.wrapper .main4 h3 {
+		font-size: 55px;
+	}
+	.wrapper .main4 .section4 .grid_section4 {
+		grid-template-columns: auto;
+	}
+	.wrapper .main4 .section4 .grid_section4 .item .image img {
+		width: 110px;
+		height: 110px;
+	}
+	.wrapper .main4 .section4 .grid_section4 .item .image .yourname {
+		width: 110px;
+		height: 110px;
+	}
+	.wrapper .main4 .section4 .grid_section4 .item .image .name {
+		font-size: 22px;
+	}
+	.wrapper .main5 h2 {
+		font-size: 50px;
+	}
+	.wrapper .main5 .buy {
+		width: 550px;
+		height: 500px;
+	}
+	.wrapper .main5 .buy img {
+		width: 160px;
+		height: 220px;
+	}
+	.wrapper .main5 .buy .cost h3 {
+		font-size: 40px;
+	}
+	.wrapper .main5 p {
+		font-size: 25px; 
+	}
+	.wrapper .main5 .buy button {
+		width: 100%;
+		height: 80px;
+		font-size: 25px;
+	}
+	.wrapper .section6 {
+		flex-direction: column;
+		width: 100%;
+	}
+	.wrapper .section6 .about_link,
+	.wrapper .section6 .desc {
+		width: 100%;
+	}
+}
+/*@media (max-width: 420px) {
+	.wrapper .main1 .container .section1 .banner img {
+		background-color: red;
+	}
+
+}*/
